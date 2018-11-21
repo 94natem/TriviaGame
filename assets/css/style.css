@@ -1,0 +1,71 @@
+html, body{
+    height:100%;
+  }
+  
+  body{
+    background-color: black;
+    text-align: center;
+  
+  }
+  
+  #container{
+    margin:2.5% auto;
+    background-color: gray;
+    width:960px;
+    height: 95%;
+    box-sizing: border-box;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    font-family: 'Sorts Mill Goudy', serif;
+    border: solid darkred;
+  }
+  
+  #sub-container{
+    position: relative;
+  }
+  button{
+    display:block;
+    width:50%;
+    height:20%;
+    margin: 0 auto;
+    border:none;
+    background:transparent;
+    font-size: 42px;;
+    font-family: 'Sorts Mill Goudy', serif;
+  }
+  
+  img{
+    height:200px;
+  }
+  
+  h1{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 6.5em;
+    font-weight: bold;
+    color:darkred;
+    padding-top: 2.5%;
+    margin-bottom: 20px;
+  }
+  
+  h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+  
+  h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  #start{
+    margin-top: 10%;
+    border:2px solid darkred;
+    background: gray;
+  }
+  
+  
+  
+  button:hover {
+    border:2px solid darkred;
+    background: gray;
+  }
